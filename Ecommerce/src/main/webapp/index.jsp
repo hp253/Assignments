@@ -17,7 +17,7 @@
 	<h1> Add a product </h1>
 	<h2>
    Name <input name="pname" id="pname" maxlength=40><br>
-   Price <input type="number" name="pprice" id="pprice"  onchange="setTwoNumberDecimal" min="1" max="100" step="0.25" ><br>
+   Price <input type="number" name="pprice" id="pprice"  onchange="setTwoNumberDecimal" min="1" max="10000" step="0.25" ><br>
    Type <input name="ptype" id="ptype" maxlength=40><br>
 </h2>
   <button>Submit</button>
